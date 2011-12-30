@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAAMtsHCKgDmbweUyIwGT4Z_BTsIJiMSxEMM8PfpwArz26bRdcFyRR9UuuXHOwbVvaySyYTePLxMCXvPQ" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    //<![CDATA[
+function initialize() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(new GLatLng(46.598978,22.710114), 10);
+        var mapTypeControl = new GMapTypeControl();
+        var topRight = new GControlPosition(G_ANCHOR_TOP_RIGHT, new GSize(10,10));
+        var bottomRight = new GControlPosition(G_ANCHOR_BOTTOM_RIGHT, new GSize(10,10));
+        map.addControl(mapTypeControl, topRight);
+        GEvent.addListener(map, "dblclick", function() {
+          map.removeControl(mapTypeControl);
+          map.addControl(new GMapTypeControl(), bottomRight);
+        });
+        map.addControl(new GSmallMapControl());
+      }
+    }
+
+    //]]>
+
+
+    </script>
+<link href="libertura.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="initialize()" onunload="GUnload()">
+
+<p class="torzsszoveg">Karnyújtásnyira a hétköznapoktól</p>
+<table width="810" border="0" cellspacing="5" cellpadding="5">
+  <tr>
+    <td width="554"><div id="map_canvas" style="width: 531px; height: 400px; position: relative; vertical-align: middle;" ></div>
+    sdgs
+   </td>
+    <td width="234" align="center" valign="top"><table width="210" border="0" cellpadding="4" cellspacing="4">
+      <tr>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/_MG_4104.jpg" alt="" width="96" height="64" /></td>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/_MG_4113.jpg" alt="" width="96" height="64" /></td>
+      </tr>
+      <tr>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/_MG_4612.jpg" alt="" width="96" height="64" /></td>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/_MG_4662.jpg" alt="" width="96" height="64" /></td>
+      </tr>
+      <tr>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/padis 129.jpg" alt="" width="96" height="64" /></td>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/P4040067.jpg" alt="" width="96" height="72" /></td>
+      </tr>
+    </table>      <table width="210" border="0" cellpadding="4" cellspacing="4">
+      <tr>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/_MG_7258.jpg" width="96" height="64" /></td>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/_MG_7125.jpg" width="96" height="64" /></td>
+      </tr>
+      <tr>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/padis_2008.06.20. 10-08-41.jpg" width="96" height="64" /></td>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/_MG_4671.jpg" width="96" height="64" /></td>
+      </tr>
+      <tr>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/_MG_4443.jpg" width="96" height="67" /></td>
+        <td><img src="gallery0/padisvalogatas/resources/images/thumb/o 106.jpg" width="96" height="64" /></td>
+      </tr>
+    </table>    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>

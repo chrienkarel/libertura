@@ -1,0 +1,54 @@
+.fotabla {
+	background-image: url(layout/fht.jpg);
+	background-repeat: no-repeat;
+}
+.fotablabg {
+	background-image: url(layout/fht1.jpg);
+	background-repeat: repeat;
+}
+.tal {
+	background-image: url(layout/ftal.jpg);
+	background-repeat: no-repeat;
+}
+a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #063;
+}
+.torzsszoveg {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFC;
+	text-decoration: none;
+}
+.alcim {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FC0;
+}
+.cimek {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color: #6C0;
+}
+.fulszoveg {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+	font-variant: normal;
+	color: #BEBE7C;
+	text-decoration: none;
+}
+.alcim a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FC3;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF6;
+}
